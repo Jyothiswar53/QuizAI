@@ -1,0 +1,90 @@
+quiz-ai/
+├─ .gitattributes
+├─ .gitignore
+├─ mvnw
+├─ mvnw.cmd
+├─ pom.xml
+├─ .mvn/
+│  └─ wrapper/
+│     └─ maven-wrapper.properties
+└─ src/
+   └─ main/
+      ├─ java/
+      │  └─ com/
+      │     └─ quizai/
+      │        ├─ QuizAiApplication.java
+      │        ├─ config/
+      │        │  ├─ OpenAIConfig.java
+      │        │  ├─ OpenApiConfig.java
+      │        │  └─ SecurityConfig.java
+      │        ├─ controller/
+      │        │  ├─ AdminController.java
+      │        │  ├─ AuthController.java
+      │        │  ├─ LeaderboardController.java
+      │        │  ├─ QuizController.java
+      │        │  └─ WebController.java
+      │        ├─ dto/
+      │        │  ├─ AdminStatsDTO.java
+      │        │  ├─ AuthResponse.java
+      │        │  ├─ LeaderboardDTO.java
+      │        │  ├─ LoginRequest.java
+      │        │  ├─ QuestionDTO.java
+      │        │  ├─ QuizHistoryDTO.java
+      │        │  ├─ QuizRequest.java
+      │        │  ├─ QuizResultRequest.java
+      │        │  ├─ QuizResultResponse.java
+      │        │  └─ RegisterRequest.java
+      │        ├─ entity/
+      │        │  ├─ Question.java
+      │        │  ├─ QuestionAttempt.java
+      │        │  ├─ QuizAttempt.java
+      │        │  └─ User.java
+      │        ├─ exception/
+      │        │  └─ GlobalExceptionHandler.java
+      │        ├─ repository/
+      │        │  ├─ QuestionAttemptRepository.java
+      │        │  ├─ QuestionRepository.java
+      │        │  ├─ QuizAttemptRepository.java
+      │        │  └─ UserRepository.java
+      │        ├─ security/
+      │        │  ├─ JwtAuthFilter.java
+      │        │  ├─ JwtUtil.java
+      │        │  └─ UserDetailsServiceImpl.java
+      │        └─ service/
+      │           ├─ AdminService.java
+      │           ├─ AuthService.java
+      │           ├─ LeaderboardService.java
+      │           ├─ OpenAIService.java
+      │           └─ QuizService.java
+      └─ resources/
+         ├─ application.properties
+         ├─ db/
+         │  └─ init.sql
+         ├─ static/
+         │  ├─ css/
+         │  │  └─ style.css
+         │  └─ js/
+         │     ├─ admin.js
+         │     ├─ app.js
+         │     ├─ auth.js
+         │     ├─ dashboard.js
+         │     ├─ leaderboard.js
+         │     └─ quiz.js
+         └─ templates/
+            ├─ index.html
+            ├─ dashboard.html
+            ├─ leaderboard.html
+            ├─ fragments/
+            │  └─ navbar.html
+            ├─ admin/
+            │  └─ dashboard.html
+            ├─ auth/
+            │  ├─ login.html
+            │  └─ register.html
+            └─ quiz/
+            |   ├─ result.html
+            |   ├─ session.html
+            |   └─ setup.html
+            ├─dashboard.html
+            ├─index.html
+            ├─leaderboard.html
