@@ -170,13 +170,6 @@ Supported Question Counts
 
 ---
 
-## Artificial Intelligence
-
-- Google Gemini API
-- Gemini 2.5 Flash
-
----
-
 ## Deployment
 
 - Docker
