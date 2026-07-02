@@ -282,12 +282,6 @@ DELETE /api/admin/users/{id}
 
 ---
 
-## ❓ Quiz Session
-
-![Quiz Session](screenshots/quizsession.png)
-
----
-
 ## 📈 Quiz Result
 
 ![Result](screenshots/result.png)
